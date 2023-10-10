@@ -9,5 +9,11 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
-  'sourcegraph/sg.nvim'
+  {
+    'sourcegraph/sg.nvim',
+    config = function()
+      require("sg").setup()
+    end,
+  }
+
 }
