@@ -7,6 +7,5 @@ return {
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.bars-and-lines.heirline-mode-text-statusline" },
-  { import = "astrocommunity.colorscheme.fluormachine-nvim" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
 }
